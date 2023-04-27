@@ -45,9 +45,23 @@ main {
 
 .footer-info {
     background-color: #f5f5f5;
+    display: flex;
+    justify-content: space-between;
     padding: 20px;
 }
 
-.footer-hours {
-    text-align: right;
+.footer-left,
+.footer-right {
+    width: 45%;
+}
+
+.footer-title {
+    font-family: 'Georgia', serif;
+    font-variant-caps: small-caps;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.footer-subheader {
+    font-weight: bold;
 }
