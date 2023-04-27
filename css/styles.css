@@ -15,6 +15,8 @@ body {
     margin: 0;
 }
 
+/* NAV BAR */
+
 nav {
     background-color: #f5f5f5;
     padding: 20px;
@@ -38,21 +40,72 @@ nav li a:hover {
     background-color: #ddd;
 }
 
+
+
+
+
+
 main {
     margin-left: 200px;
     padding: 20px;
 }
 
+
+
+/* DROPDOWN MENU */
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+
+
+/* FOOTER */
+
 .footer-info {
     background-color: #f5f5f5;
-    display: flex;
-    justify-content: space-between;
     padding: 20px;
 }
 
-.footer-left,
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-left {
+    width: 55%;
+}
+
 .footer-right {
-    width: 45%;
+    width: 40%;
 }
 
 .footer-title {
@@ -64,4 +117,26 @@ main {
 
 .footer-subheader {
     font-weight: bold;
+}
+
+.location-text {
+    font-size: 0.9em;
+}
+
+.hours-title {
+    text-align: right;
+    margin-top: 0;
+    font-size: 1em;
+}
+
+.hours-text {
+    font-size: 0.9em;
+    line-height: 1.1;
+    text-align: right;
+}
+
+.footer-line {
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 10px 15px;
 }
