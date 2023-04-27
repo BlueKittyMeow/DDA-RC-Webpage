@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.top-level-info-bar {
+    background-color: lightgray;
+    padding: 10px;
+    text-align: left;
+}
+
+.top-level-info-bar h1 {
+    color: cyan; /* Change this to 'lavender' if you prefer */
+    margin: 0;
+}
+
+nav {
+    background-color: #f5f5f5;
+    padding: 20px;
+    width: 200px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li a {
+    color: #333;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: #ddd;
+}
+
+main {
+    margin-left: 200px;
+    padding: 20px;
+}
+
+.footer-info {
+    background-color: #f5f5f5;
+    padding: 20px;
+}
+
+.footer-hours {
+    text-align: right;
+}
