@@ -6,5 +6,5 @@
 
 - demo of bullets
 - other stuff
-[] to be done
+[ ] to be done
 [x] done
